@@ -1,0 +1,46 @@
+{
+  "lang": "DE",
+  "DE": {
+    "LAUNGAGE": {
+      "withdraw": "Auszahlen",
+      "deposit": "Einzahlen",
+      "transfer": "Überweisen",
+      "your_money_title": "DEIN KONTO",
+      "your_money_desc": "Kontostandsübersicht",
+      "your_money_cash_label": "Bargeld",
+      "your_money_bank_label": "Bankguthaben",
+      "moneyFormat": "$ __replaceData__",
+      "mainExitButtonText": "VERLASSEN"
+    },
+    "DYNAMIC_FORM_DATA": [
+      {
+        "componentName": "withdraw",
+        "elementID": "#withdraw",
+        "title": "Abheben",
+        "description": "Bargeld vom Konto abheben",
+        "buttonText": "Bestätigen",
+        "inputPlaceholder": "Betrag...",
+        "name": "withdraw",
+        "type": "number"
+      },
+      {
+        "componentName": "deposit",
+        "elementID": "#deposit",
+        "title": "Einzahlen",
+        "description": "Bargeld auf das Konto einzahlen",
+        "buttonText": "Bestätigen",
+        "inputPlaceholder": "Betrag...",
+        "name": "deposit",
+        "type": "number"
+      },
+      {
+        "componentName": "moreGraph",
+        "elementID": "body",
+        "title": "Übersicht",
+        "closeButtonText": "X",
+        "bankTitle": "FLEECA BANK",
+        "mainExitButtonText": "SCHLIESSEN"
+      }
+    ]
+  }
+}
